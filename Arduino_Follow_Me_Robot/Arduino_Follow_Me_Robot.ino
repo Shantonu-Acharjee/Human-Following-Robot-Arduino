@@ -94,9 +94,9 @@ if((distance > 1) && (distance < 15)){            //check wheather the ultrasoni
   //Motor2.run(FORWARD);   //rotate motor2 clockwise:
 
   Motor3.setSpeed(150);  //define motor3 speed:
-  Motor3.run(FORWARD);  //rotate motor3 anticlockwise:
+  Motor3.run(BACKWARD);  //rotate motor3 anticlockwise:
   Motor4.setSpeed(150);  //define motor4 speed:
-  Motor4.run(BACKWARD);  //rotate motor4 anticlockwise:
+  Motor4.run(FORWARD);  //rotate motor4 anticlockwise:
   delay(150);
   
 }else if((Right_Value==1)&&(Left_Value==0)) {     //If the condition is 'true' then the statement below will execute:
@@ -108,9 +108,9 @@ if((distance > 1) && (distance < 15)){            //check wheather the ultrasoni
   //Motor2.run(BACKWARD);  //rotate motor2 anticlockwise:
 
   Motor3.setSpeed(150);  //define motor3 speed:
-  Motor3.run(BACKWARD);   //rotate motor3 clockwise:
+  Motor3.run(FORWARD);   //rotate motor3 clockwise:
   Motor4.setSpeed(150);  //define motor4 speed:
-  Motor4.run(FORWARD);   //rotate motor4 clockwise:
+  Motor4.run(BACKWARD);   //rotate motor4 clockwise:
   delay(150);
   
 }else if(distance > 15) {                          //If the condition is 'true' then the statement below will execute:
